@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <>
       <Flex direction="column" align="center">
-        <Flex mt="20px" mb="100px">
+        <Flex mt="20px" mb="50px">
           <Button bg="#0d0960" mr="10px" color="white" onClick={toggleColorMode} w="130px">
             Toggle {colorMode === "light" ? "Dark" : "Light"}
           </Button>
